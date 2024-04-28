@@ -1,0 +1,5 @@
+services:
+  web:  
+    image: node:20.12.2
+    ports:
+      - "8080:80"
